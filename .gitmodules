@@ -1,0 +1,6 @@
+[submodule "portfolio"]
+	path = portfolio
+	url = https://github.com/lucasbelous2/portfolio
+[submodule "avaliacao"]
+	path = avaliacao
+	url = https://github.com/lucasbelous2/avaliacao
