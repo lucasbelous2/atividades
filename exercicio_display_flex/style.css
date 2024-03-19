@@ -1,0 +1,43 @@
+.pagina {
+    margin-top:3%;
+    margin-left: 10%;
+    height:100%;
+    width:80%;
+}
+
+.divPlaceHolder,.pagina {
+    background-color:rgb(159, 159, 255);
+}
+
+.linha {
+    gap: 10%;
+    height:33%;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin-top:2%;
+    margin-bottom:2%;
+    background-color:yellow;
+    width:80%;
+    height:90%;
+}
+
+.divQuadrada,.divQuadradaDesgraca,.divDeCima {
+    width: 20%;
+}
+
+.divDeCima {
+    height:100%;
+    margin-bottom:0%;
+}
+
+.divQuadradaDesgraca {
+    margin-top:0%;
+    height: 100%;
+}
+
+.divDoisQuadrado {
+    width: 50%;
+}
