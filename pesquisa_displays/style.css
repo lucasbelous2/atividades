@@ -1,0 +1,49 @@
+body {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100vh;
+    font-size: 2rem;
+}
+
+div {
+    /* max-width: 600px; */
+}
+
+.header {
+    background-color: rgb(175, 175, 175);
+}
+
+.tabela {
+   display: table;
+}
+
+.linha,.header {
+   display: table-row;
+}
+
+.celula {
+   display: table-cell;
+   border-radius: 40px;
+   background-color: rgb(255, 132, 132);
+}
+
+.linha,.celula,.header {
+  padding: 10px;
+}
+
+#teste {
+    display:flex block;
+    width: 50%;
+    background-color: gray;
+}
+
+p {
+    color: white;
+}
+
+#blabla { 
+    background-color: black;
+    border-radius: 30px;
+    width:100px;
+}

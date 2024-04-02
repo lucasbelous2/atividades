@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <body>
+    <form action="/insira_api" method="post">
+      <label for="name">Nome:</label><br>
+      <input type="text" id="name" name="name"> 
+      <br><br>
+
+      <label for="gender">Gênero:</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Masculino</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Feminino</label><br>
+      <br><br>
+
+      <input type="submit" value="Enviar">
+      <br><br>
+
+      <p>
+      Existem vários tipos de campos de entrada disponíveis, incluindo:
+      <ul>
+        <li><strong>texto:</strong> para entrada de texto em uma linha</li>
+        <input type="text" id="name" name="name"> 
+        <li><strong>senha:</strong> para entrada de texto mascarado (oculta os caracteres de entrada)</li>
+        <input type="password" id="name" name="name"> 
+        <li><strong>e-mail:</strong> para entrada de endereço de e-mail</li>
+        <input type="email" id="name" name="name"> 
+        <li><strong>url:</strong> para entrada de URL</li>
+        <input type="url" id="name" name="name"> 
+        <li><strong>número:</strong> para entrada numérica</li>
+        <input type="number" id="name" name="name"> 
+        <li><strong>data:</strong> para entrada de data</li>
+        <input type="date" id="name" name="name"> 
+        <li><strong>hora:</strong> para entrada de hora</li>
+        <input type="time" id="name" name="name"> 
+        <li><strong>caixa de seleção:</strong> para entrada de escolha múltipla</li>
+        <input type="checkbox" id="name" name="name"> 
+        <li><strong>radio:</strong> para entrada de escolha única</li>
+        <input type="radio" id="name" name="name"> 
+      </ul>
+      </p>
+
+      <p>
+      O método post é usado para enviar dados do formulário para o servidor/api. Quando o usuário clica no botão enviar, o navegador envia os dados do formulário como uma solicitação HTTP para o servidor usando o método post. O servidor pode então processar os dados e retornar uma resposta ao cliente.
+      </p>
+    </form>
+  </body>
+</html>
