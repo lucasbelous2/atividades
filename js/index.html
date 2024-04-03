@@ -1,0 +1,26 @@
+<html>
+    <p id="texto">texto</p>
+    <button onclick="aumentaFonte();" size="11">aumentar fonte</button> 
+    <button onclick="diminuiFonte();" size="11">diminuir fonte</button>
+    <input id="quantidade" type="number" value="1" placeholder="quantidade"/>
+    <script>
+        var fonte = 14;
+        var quantidade = 1;
+
+        function aumentaFonte() {
+            quantidade = document.getElementById("quantidade").value;
+            fonte = fonte + quantidade
+            document.getElementById("texto").style.fontSize = fonte + "px"; 
+        }
+
+        function diminuiFonte() {
+            quantidade = document.getElementById("quantidade").value;
+            if ((fonte = fonte - quantidade) >= 0) {
+                fonte = fonte - quantidade
+            } else {
+                fonte = 1;
+            }
+            document.getElementById("texto").style.fontSize = fonte + "px"; 
+        }
+    </script>
+</html>
