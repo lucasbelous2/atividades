@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <script src="calcular.js"></script>
+</head>
+
+<div>
+    <form action="#" method="post">
+        <div>
+            <label for="operacao">operacao</label>
+            <select id="operacao" name="operacao">
+                <option value="add">Adicao</option>
+                <option value="sub">Subtracao</option>
+                <option value="mul">Multiplicacao</option>
+                <option value="div">Divisao</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="primeiroNumero">primeiro numero</label>
+            <input type="number" id="primeiroNumero" name="primeiroNumero" required>
+        </div>
+
+        <div>
+            <label for="segundoNumero">segundo numero</label>
+            <input type="number" id="segundoNumero" name="segundoNumero" required>
+        </div>
+
+        <div>
+            <button id="calcular" type="button" onclick="calcularValores()">calcular</button>
+        </div>
+    </form>
+</div>
+
+</html>
